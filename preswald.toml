@@ -1,0 +1,29 @@
+[project]
+title = "Student Marksheet"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project" 
+entrypoint = "hello.py"   
+
+
+[branding]
+name = "Student Marksheet"
+#Changed logo and favicon
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+
+[data.student_scores_csv]
+type = "csv"
+path = "data/student_scores.csv"
+
+
+[logging]
+level = "INFO" 
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
